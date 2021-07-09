@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aliceblue !important ;
+  /* background-image: url('./img/bg2.jpg'); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+#top {
+  text-align: center !important;
+  float: right !important;
+}
+
+#one, #two, #three, #four, #five #six, #seven, #eight, #nine {
+  padding: 20px;
+}
+
+.contact-team {
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+
+.username {
+  color:#ffc107;
+}
+
+.list-group-item {
+
+  border: 1px solid rgb(255 255 255) !important;
+}
+
+.service-list {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.delete-span {
+  color: #ffc107 !important;
+}
+
+.about-paragraph {
+  color: rgb(28, 28, 28);
+}
+
+.about-content {
+  background:rgb(0 0 0 / 25%) !important;
+  padding: 20px;
+}
+
+.text-secondary {
+  color: #ffc107!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(39, 39, 39);
+  font-family: "Bebas Neue";
+}
+.navbar-brand{
+  color:#f8c707;
+}
+
+.hub {
+  color: #fff;
+}
+#jumbotron-home {
+  background-image: url('./img/bg2.jpg') !important;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+  text-align: center;
+  color: #fff !important;
+}
+.recruit {
+  text-align:center;
+}
+
+.service-heading {
+  color: #fff;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #f8c707 !important;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #f8c707;
+  border-color: #f8c707;
+}
+
+.home-paragraph {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.jumbotron {
+  background: #00000099 !important;
+  text-align: center;
+  color: #fff !important;
+}
+
+.jumbotron-about {
+  background: #f8c707 !important;
+  text-align: center;
+  color: #fff !important;
+  border-bottom: solid #003358 5px;
+}
+
+.jumbotron-brandpromo {
+  background: #003358 !important;
+  text-align: center;
+  color: #fff !important;
+}
+
+.bg-steel {
+  background-color: #003358;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff0d;
+  padding: 10px 20px;
+  color: #242424;
+  border: 1px solid rgba(187, 0, 0, 0);
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: rgb(26, 26, 26) !important;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.mr-2 {
+  color: #ffe100;
+}
+
+.media-body a {
+  text-decoration: none;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgb(251 221 0);
+}
+.article-metadata:hover {
+  color: rgb(130, 242, 18);
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 2px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.form-control {
+
+  color: #fff;
+  background-color: #ffffff0a;
+  
+}
+
+.text-muted {
+  color: #ffc107!important;
+}
+
+
+
+input :-internal-autofill-selected {
+  
+  background-color: rgba(232, 240, 254, 0.008) !important;
+}
+
+.list-group-item-light {
+  color: #ebebf3;
+  background-color: #003358 !important;
+}
+
