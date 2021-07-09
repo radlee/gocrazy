@@ -12,6 +12,11 @@ body {
   margin-top: 5rem;
 }
 
+#top {
+  text-align: center !important;
+  float: right !important;
+}
+
 #one, #two, #three, #four, #five #six, #seven, #eight, #nine {
   padding: 20px;
 }
