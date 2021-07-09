@@ -1,0 +1,32 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <div class="jumbotron jumbotron-about" >
+        <h1>GC Services</h1>
+    </div>
+
+    <div class="row">
+        <div class="">
+
+            <div>
+                
+                  <ul class="service-list">
+                    <li><a class="dropdown-item" href="{% url 'blog-showcase' %}">Show Case Social LifeStyle Activities</a></li>
+                    <li><a class="dropdown-item" href="{% url 'blog-tickets' %}">Tickets Sales</a></li>
+                    <li><a class="dropdown-item" href="{% url 'blog-brandpromo' %}">Brand Promotion</a></li>
+                    <li><a class="dropdown-item" href="{% url 'blog-events' %}">Event Organizing and Hosting</a></li>
+                    <li><a class="dropdown-item" href="{% url 'blog-rentals' %}">Rental Services</a></li>
+                    <li><a class="dropdown-item" href="{% url 'blog-bookings' %}">Bookings</a></li>
+                  </ul>
+            </div>
+            
+            
+        </div>
+    
+    </div>
+</div>
+
+{% endblock content %}
